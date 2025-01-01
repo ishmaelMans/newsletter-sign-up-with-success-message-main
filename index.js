@@ -20,6 +20,7 @@ button.addEventListener("click", (e) => {
             </div>`;
     thanksForSub.appendChild(container);
     thanksForSub.classList.add("show");
+    console.log(email.value);
   }
 });
 
